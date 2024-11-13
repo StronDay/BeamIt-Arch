@@ -1,0 +1,21 @@
+// {
+//     "name": "OpticReg_Dev",
+//     "dockerFile": "Dockerfile",
+//     "context": "..",
+//     "appPort": 3001,
+  
+//     "customizations": {
+//       "vscode": {
+//         "extensions": [
+//           "ms-python.python",
+//           "ms-python.debugpy",
+//           "kevinrose.vsc-python-indent",
+//           "ms-python.vscode-pylance",
+//           "ms-azuretools.vscode-docker",
+//           "ms-mssql.mssql",
+//           "ms-mssql.sql-bindings-vscode",
+//           "ms-mssql.sql-database-projects-vscode"
+//         ]
+//       }
+//     }
+//   }
