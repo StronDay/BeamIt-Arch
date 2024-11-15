@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.11-slim
 
 RUN pip install --upgrade pip 
 COPY --from=openjdk:21-jdk-slim /usr/local/openjdk-21 /usr/local/openjdk-21
