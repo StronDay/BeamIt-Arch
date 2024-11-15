@@ -1,0 +1,16 @@
+networks:
+  my_network:
+
+services:
+  app: 
+    build: 
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    networks:
+      - my_network
+    volumes:
+      - ..:/workspace
+    ports:
+      - "8000:8000"
+      - "8080:8080"
+    

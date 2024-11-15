@@ -1,21 +1,27 @@
-// {
-//     "name": "OpticReg_Dev",
-//     "dockerFile": "Dockerfile",
-//     "context": "..",
-//     "appPort": 3001,
-  
-//     "customizations": {
-//       "vscode": {
-//         "extensions": [
-//           "ms-python.python",
-//           "ms-python.debugpy",
-//           "kevinrose.vsc-python-indent",
-//           "ms-python.vscode-pylance",
-//           "ms-azuretools.vscode-docker",
-//           "ms-mssql.mssql",
-//           "ms-mssql.sql-bindings-vscode",
-//           "ms-mssql.sql-database-projects-vscode"
-//         ]
-//       }
-//     }
-//   }
+{
+  "name": "BeamIt_Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+
+  "customizations": {
+
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        // "ckolkman.vscode-postgres",
+        // "cweijan.vscode-redis-client",
+        // "42crunch.vscode-openapi",
+        // "mongodb.mongodb-vscode",
+        // "jeppeandersen.vscode-kafka",
+        "/tmp/bee-c4-dsl-extension.vsix"
+      ]
+      
+    }
+  }
+}
