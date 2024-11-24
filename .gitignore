@@ -1,2 +1,5 @@
 .DS_Store
 .structurizr
+workspace.json
+structurizr/themes
+structurizr/images

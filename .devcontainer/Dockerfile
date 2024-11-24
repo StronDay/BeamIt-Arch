@@ -18,6 +18,14 @@ RUN apt-get update && apt-get install -y \
     wrk \
     iputils-ping \
     libxtst6 \
+    libxrender1 \
+    libx11-6 \
+    libxrandr2 \
+    libxcomposite1 \
+    libxdamage1 \
+    libfontconfig1 \
+    libfreetype6 \
+    libxi6 \
     # postgresql \ 
     # postgresql-contrib \
     && rm -rf /var/lib/apt/lists/*
